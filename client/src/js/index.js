@@ -1,7 +1,7 @@
 // js files
-import "./form";
+import { toggleForm, clearForm } from "./form";
 import "./database";
-import { initDb, getDb, postDb, deleteDb } from "./database";
+import { initDb, postDb, deleteDb, editDb } from "./database";
 import { fetchCards } from "./cards";
 
 // css
